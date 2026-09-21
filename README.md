@@ -3,6 +3,8 @@ Student Tutoring Schedule Matchup
 
 The goal is to match up students with tutors that will best meet their needs educationally and their needs 
 depending on the student's specific schedule. For students struggling academically and want the ability to finda tutor easily from home.
+The program will also allow the tutor to introduce a price range for themselves. Moreover, the students will also be allowed to leave 
+reviews about the tutors they have worked with, and other users will be allowed to see the reviews. 
 
 ## Team 7:
 
