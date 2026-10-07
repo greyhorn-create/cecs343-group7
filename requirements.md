@@ -1,12 +1,12 @@
-Purpose:
+Purpose: Not added Yet
 
-Actors:
+Actors: Not Added Yet
 
-Functional:
+Functional: Not Added Yet
 
-Quality:
+Quality: Not Added Yet
 
-Out of scope:
+Out of scope: Not Added Yet
 
-Open questions:
+Open questions: Not Added Yet
 
