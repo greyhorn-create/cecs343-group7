@@ -1,6 +1,6 @@
 Purpose: Not added Yet
 
-Actors: Not Added Yet
+Actors: This system will be touched and interacted with by students with academic needs, qualified tutors in search for a job, and moderators to ensure everything is running smoothly 
 
 Functional: Not Added Yet
 
