@@ -11,5 +11,5 @@ No confirmed profile, price, schedule, or review data shall be lost, with servic
 
 Out of scope: Not Added Yet
 
-Open questions: Not Added Yet
+Open questions: What is the limit to how many guardians can be on one student account/ how many accounts can one guardian moderate? Owner: Fernando T. Date: 10/12 Default: Allow no restrictions.
 
