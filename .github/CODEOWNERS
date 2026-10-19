@@ -1,5 +1,8 @@
-* @greyhorn-create
-README.md @sofkfu
-docs/ @sofkfu
-.github/ @Fernando-T8
-tests/ @JIE2222200
+# .github/CODEOWNERS
+*         @greyhorn-create
+/docs/requirements.md   @PRafaelGarzon
+/docs/use-cases/        @PRafaelGarzon
+README.md                     @sofkfu
+/docs/verification-log.md     @sofkfu
+.github/  @Fernando-T8
+tests/    @JIE2222200
