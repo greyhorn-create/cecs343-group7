@@ -35,3 +35,23 @@ Extensions:
     S -->|Empty result: no subject match| U
     S -->|Empty result: subject matches, day does not| U
     S -->|Empty result: subject and day match, time does not| U
+
+```mermaid
+sequenceDiagram
+    participant U
+    participant M
+    participant S
+    participant T
+
+    U->>M: UI selection
+    M->>S: Matching use-case call
+    U->>S: UI input: subject, day, and time
+    S->>T: Comparison query: subject, day, and time
+    T-->>S: Tutor data response
+    S-->>U: Results response: tutors matching all three
+```
+<img width="1400" height="800" alt="image" src="https://github.com/user-attachments/assets/2c407d1c-a7f7-4aea-85d0-5fca7a87a27b" />
+
+Gap: The table provides descriptions such as “Matching use-case call” and “Comparison query,” but it does not provide actual function or method names for the arrows.
+
+    
