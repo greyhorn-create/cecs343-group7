@@ -42,6 +42,17 @@ Filenames weren’t included, so it identified them by their pasted code.
 
 Verified: the application file imports no project files, and that each pasted test file imports app with import app as app_module
 
+##
+Requested: ChatGPT 6 Luna, check our most important file, and to describe it's symptoms as well as a potential fix
+
+Generated:  a symptom in a paragraph, and a solution in a paragraph 
+
+Claimed: Symptom: find_tutors() in app.py handles the Flask request, validates the subject, filters the sample tutor list, and builds the JSON response in one function. A solution it proposed is that we could create a different file to handle all the filtering of the tutors so that if more filters were to get added later on we  without needing to change the main file.
+
+Verified: That adding another file would be better in order to better implement changes if needed later on to the filtering. 
+
+Not Verified: How long the file would be 
+
 Not Verified: the actual filenames, whether the two identical test excerpts are separate files, 
 or whether there are other project files or imports beyond what you pasted
 
