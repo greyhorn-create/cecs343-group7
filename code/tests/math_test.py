@@ -1,5 +1,5 @@
 # Testing code test functions
-def test_addition:
+def test_addition():
   number1 = 2
   number2 = 5
 
