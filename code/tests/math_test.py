@@ -7,7 +7,7 @@ def test_addition():
 
   assert result == 7
 
-def test_subtraction:
+def test_subtraction():
   number1 = 2
   number2 = 5
 
