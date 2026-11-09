@@ -16,5 +16,4 @@ File: .devcontainer/devcontainer.json
 Codespace screenshot: docs/lab4/codespace.png
 Pull request that added it: #<number>
 ## AI use
-<"None." Or: which file a generator wrote, which tool, and the date of the
-Verification Log entry. The pull request carries the ai-assisted label.>
+A mermaid diagram of our work, made using ChatGPT Luna
