@@ -16,4 +16,4 @@ File: .devcontainer/devcontainer.json
 Codespace screenshot: docs/lab4/codespace.png
 Pull request that added it: #<number>
 ## AI use
-A mermaid diagram of our work, made using ChatGPT Luna
+A Mermaid diagram of our work, made using ChatGPT Luna 6 on Oct 28, 2026.
