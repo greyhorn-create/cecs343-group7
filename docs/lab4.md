@@ -17,3 +17,4 @@ Codespace screenshot: docs/lab4/codespace.png
 Pull request that added it: #<number>
 ## AI use
 A Mermaid diagram of our work, made using ChatGPT Luna 6 on Oct 28, 2026.
+<img width="525" height="589" alt="image" src="https://github.com/user-attachments/assets/14e669e3-04ff-46a8-88d6-3527cf20df2e" />
