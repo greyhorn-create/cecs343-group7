@@ -3,8 +3,7 @@ Team: 7
 Members present in class: Ayden De Leon, Pablo Rafael Garzon, Sofia Fu, Fernando Tomas
 ## CI
 Workflow: .github/workflows/ci.yml
-First green run on main: <URL>
-<img width="735" height="790" alt="image" src="https://github.com/user-attachments/assets/1b5c722e-71a5-447d-9a53-9208b6d8c3c8" />
+First green run on main: https://github.com/greyhorn-create/cecs343-group7/actions/runs/42716654330
 Pull request that added it: #45
 ## Gate
 Required check: test
