@@ -1,4 +1,4 @@
-from repo import app
+from code import app
 
 def test_subject_day_and_time_search_returns_exact_match():
     response = app.test_client().get(
