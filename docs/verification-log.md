@@ -62,8 +62,20 @@ Requested: ChatGPT Luna 6, with our requirements to generate a file that would h
 
 Generated: 2 new files, 1 edited file
 
-claimed: that the tutor_matching.py will handle all of the tutor to student matching functionality of our project. 
+Claimed: that the tutor_matching.py will handle all of the tutor to student matching functionality of our project. 
 
 Verified: the matcher requires the subject, weekday (day), and time all to match. It ignores capitalization and trims surrounding spaces. The Flask route returns JSON errors for missing inputs and a no-results message when there are no matches.
 
-Not Verfied: the search is connected to your project’s database or main UI, that it can return 20–30 tutors quickly, or that it handles a tutor-list 503 failure. The sample list is in memory and contains only Ana and Ben. Also, the route uses day values such as Monday; it doesn’t match calendar dates. So quality would still be an issue.
+Not verified: the search is connected to your project’s database or main UI, that it can return 20–30 tutors quickly, or that it handles a tutor-list 503 failure. The sample list is in memory and contains only Ana and Ben. Also, the route uses day values such as Monday; it doesn’t match calendar dates. So quality would still be an issue.
+
+
+##
+Requested: ChatGPT 5.6 Sol, to help fix the inability of the tutor_test file to pass the test requirement
+
+Generated: 1 edited file, ci.yml
+
+Claimed: The tutor_test file will now pass and work as intended, with functionality that proves our current app design is running, without ruining the testing of other files
+
+Verified: The tutor_test file passes and works as intended, with functionality that proves our current app design runs as intended
+
+Not Verified: the updated ci.yml file may not work as intended for any new files we add. Due to the nature of the request, it was updated to ensure the tutor_test file could be run
