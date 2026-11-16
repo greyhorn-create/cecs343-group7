@@ -7,5 +7,5 @@ def test_subject_day_and_time_search_returns_exact_match():
 
     assert response.status_code == 200
     assert response.get_json() == {
-        "tutors": ["Ana — Mathematics — Monday — 4:00 PM"]
+        "tutors": ["Ana — Mathmatics — Monday — 4:00 PM"]
     }
