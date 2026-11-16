@@ -57,3 +57,13 @@ Not Verified: the actual filenames, whether the two identical test excerpts are 
 or whether there are other project files or imports beyond what you pasted
 
 
+##
+Requested: ChatGPT Luna 6, with our requirements to generate a file that would handle only the tutor-matching function. And to write a test for it. 
+
+Generated: 2 new files, 1 edited file
+
+claimed: that the tutor_matching.py will handle all of the tutor to student matching functionality of our project. 
+
+Verified: the matcher requires the subject, weekday (day), and time all to match. It ignores capitalization and trims surrounding spaces. The Flask route returns JSON errors for missing inputs and a no-results message when there are no matches.
+
+Not Verfied: the search is connected to your project’s database or main UI, that it can return 20–30 tutors quickly, or that it handles a tutor-list 503 failure. The sample list is in memory and contains only Ana and Ben. Also, the route uses day values such as Monday; it doesn’t match calendar dates. So quality would still be an issue.
