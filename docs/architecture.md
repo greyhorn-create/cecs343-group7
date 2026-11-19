@@ -35,3 +35,35 @@ Extensions:
 
  <img width="743" height="355" alt="image" src="https://github.com/user-attachments/assets/5be78417-0e04-4a55-8cbe-795980df5677" />
 
+------------------------------------------------------------------
+ User Case: A Website where the student will find all of the feature we'll implement. 
+
+ Actor: User
+
+ Goal: A User is able to open up the website where they'll be able to use it's functions
+
+ Main Success Scenario:
+
+ The user is able to open up the website and see the bars where they can input the Subject, Time, and Day. Then the website loads and returns a list
+ of potential tutors using the match_tutor function. 
+
+ Extensions:
+
+ - The user enters nothing in the boxes
+ - If no tutors were found the website will return a "No Tutors Match" message
+ - User can see their profile if one was created
+
+## Table 
+
+| UC-Step | Where it runs |
+| --- | --- |
+| 1. The user enters the website | User's browser |
+| 2. The browser requests the main page | Browser sends a request to the website |
+| 3. The website returns the main page with the tutor search options | Website's home-page route and page|
+| 4. The browser displays the main page to the user | User's Browser | 
+| 5. The user selects "Find a Tutor" | Main-page interface; this starts the seprate tutor-search use case|
+
+## Mermaid Diagram
+<img width="1618" height="964" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/76b02c76-cb31-4096-8ca3-fcfda55a1d62" />
+
+
