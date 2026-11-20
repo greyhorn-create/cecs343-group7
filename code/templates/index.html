@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find a Tutor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem auto;
+      max-width: 42rem;
+      padding: 0 1rem;
+      color: #202124;
+    }
+    form { display: grid; gap: 0.75rem; }
+    label { font-weight: 600; }
+    input, select, button { font: inherit; padding: 0.6rem; }
+    button { cursor: pointer; }
+    #message { min-height: 1.5rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Find a Tutor</h1>
+    <p>Search for tutors by subject, day, and time.</p>
+
+    <form id="tutor-search-form">
+      <label for="subject">Subject</label>
+      <input id="subject" name="subject" type="text" required>
+
+      <label for="day">Day</label>
+      <select id="day" name="day" required>
+        <option value="">Select a day</option>
+        <option>Monday</option>
+        <option>Tuesday</option>
+        <option>Wednesday</option>
+        <option>Thursday</option>
+        <option>Friday</option>
+        <option>Saturday</option>
+        <option>Sunday</option>
+      </select>
+
+      <label for="time">Time</label>
+      <input id="time" name="time" type="text" placeholder="4:00 PM" required>
+
+      <button type="submit">Find Tutor</button>
+    </form>
+
+    <p id="message" role="status" aria-live="polite"></p>
+    <ul id="results" aria-label="Matching tutors"></ul>
+  </main>
+
+  <script>
+    const form = document.getElementById("tutor-search-form");
+    const message = document.getElementById("message");
+    const results = document.getElementById("results");
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      message.textContent = "Searching...";
+      results.replaceChildren();
+
+      const query = new URLSearchParams(new FormData(form));
+
+      try {
+        const response = await fetch(`/tutors?${query.toString()}`);
+        const data = await response.json();
+
+        if (!response.ok) {
+          message.textContent = data.error;
+          return;
+        }
+
+        if (data.message) {
+          message.textContent = data.message;
+          return;
+        }
+
+        message.textContent = "Matching tutors:";
+        for (const tutor of data.tutors) {
+          const item = document.createElement("li");
+          item.textContent = tutor;
+          results.appendChild(item);
+        }
+      } catch (error) {
+        message.textContent = "Could not contact the tutor search service.";
+      }
+    });
+  </script>
+</body>
+</html>

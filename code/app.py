@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 
 from tutor_matching import match_tutors
 
@@ -20,6 +20,10 @@ TUTORS = [
     },
 ]
 
+@app.get("/")
+def home():
+    """show the website's current feature: tutor search."""
+    return render_template("index.html")
 
 @app.get("/tutors")
 def find_tutors():
