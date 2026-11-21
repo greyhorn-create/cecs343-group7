@@ -11,7 +11,6 @@ Sofia Fu, sofkfu, Documentation and Verification
 Ayden De Leon, greyhorn, Coordinator 
 Pablo Garzon, PRafaelGarzon, Ux Lead
 Fernando Tomas, Fernando-T8, DevOps and CI lead
-Ikechukwu Emaruwa,JIE2222200,QA Lead
 
 ## Planned Features:
 
