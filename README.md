@@ -7,11 +7,10 @@ reviews about the tutors they have worked with, and other users will be allowed 
 
 ## Team 7:
 
-Sofia Fu, sofkfu, Documentation and Verification 
-Ayden De Leon, greyhorn, Coordinator 
-Pablo Garzon, PRafaelGarzon, Ux Lead
-Fernando Tomas, Fernando-T8, DevOps and CI lead
-Ikechukwu Emaruwa,JIE2222200,QA Lead
+- Sofia Fu, sofkfu, Documentation and Verification 
+- Ayden De Leon, greyhorn, Coordinator 
+- Pablo Garzon, PRafaelGarzon, Ux Lead
+- Fernando Tomas, Fernando-T8, DevOps and CI lead
 
 ## Planned Features:
 
